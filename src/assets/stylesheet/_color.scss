@@ -1,0 +1,31 @@
+$prestige-blue: rgba(47, 53, 66, 1.0);
+$grisaille: rgba(87, 96, 111, 1.0);
+$bay-wharf: rgba(116, 125, 140, 1.0);
+$peace: rgba(164, 176, 190, 1.0);
+
+$watermelon: rgba(255, 107, 129, 1.0);
+$orange: rgba(255, 165, 2, 1.0);
+$golden-sand: rgba(236, 204, 104, 1.0);
+
+$bright-greek: rgba(55, 66, 250, 1.0);
+$clear-chill: rgba(30, 144, 255, 1.0);
+$french-sky-blue: rgba(112, 161, 255, 1.0);
+
+$ufo-green: rgba(46, 213, 115, 1.0);
+$lime-soap: rgba(123, 237, 159, 1.0);
+
+$primary: $grisaille;
+$secondary: $bay-wharf;
+
+$info: $clear-chill;
+$success: $ufo-green;
+
+$warning: $golden-sand;
+
+body {
+  color: $secondary;
+}
+
+h1 {
+  color: $info;
+}
