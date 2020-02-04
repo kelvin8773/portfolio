@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kelvin's Portfolio Site</title>
+  <title>Kelvin's Portfolio</title>
 </head>
 
 <body>
@@ -19,15 +19,84 @@
   </header>
 
   <main class="container">
-    <div id="main-intro">
-      <h1 class="text-left mt-5 mx-2 mb-3 hero-title">> Kelvin Liang _</h1>
-      <div id="main-intro-detail">
+    <div class="d-flex flex-column align-items-center">
+      <div id="main-intro" class="my-5">
+        <h1 id="main-intro-title" class="text-left mx-2 mb-4">
+          > Kelvin Liang
+          <span class="text-blink background-orange px-1">&nbsp;</span>
+        </h1>
+        <p id="main-intro-line" class="mb-5">
+          I was a system admin, but I am a web developer now. It is never too late to pursuing your dream.
+        </p>
+        <div id="main-terminal" class="my-5">
+          <div id="main-terminal-bar" class="d-flex justify-content-start align-items-center">
+            <div class="terminal-button background-red mx-2"></div>
+            <div class="terminal-button background-yellow mr-2"></div>
+            <div class="terminal-button background-green mr-2"></div>
+          </div>
+
+          <div id="main-terminal-window" class="">
+
+            <div class="m-3 mb-5">
+              <div class="grey mb-3">
+                > Kelvin.currentLocation
+              </div>
+              <div class="orange">"Huizhou, GuangDong, China"</div>
+            </div>
+
+            <div class="m-3 mb-5">
+              <div class="grey mb-3">
+                > Kelvin.contactInfo
+              </div>
+              <div class="orange">[
+                "<a href="mailto:kelvin9877@gmail.com">kelvin9877@gmail.com</a>",
+                "<a href="https://www.linkedin.com/in/kelvin9877/">LinkedIn</a>",
+                "<a href="https://twitter.com/Kelvin9877">Twitter</a>"
+                ]</div>
+            </div>
+
+            <div class="m-3 mb-5">
+              <div class="grey mb-3">
+                > Kelvin.interests
+              </div>
+              <div class="orange">["Fitness", "Marathon", "Cooking", "Travel", "History"]</div>
+            </div>
+
+            <div class="m-3 mb-5">
+              <div class="grey mb-3">
+                > Kelvin.experiences
+              </div>
+              <div class="orange">
+                { System Admin: "10 years", Web developer: "2 years" }
+              </div>
+            </div>
+
+            <div class="m-3 mb-5">
+              <div class="grey mb-3">
+                > Kelvin.skills
+              </div>
+              <div class="orange">
+                ["JavaScript", "HTML/CSS", "Sass", "Ruby On Rails", "React", "Redux" ]
+              </div>
+            </div>
+
+            <div class="m-3 mb-5">
+              <div class="grey mb-3">
+                > <span class="text-blink background-green">&nbsp;</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
 
       </div>
-    </div>
 
-    <div id="main-projects" class="text-center">
-      Project list here.
+      <div id="main-projects" class="text-center">
+        <div class="my-5">
+          Project list here.
+        </div>
+      </div>
     </div>
 
   </main>
