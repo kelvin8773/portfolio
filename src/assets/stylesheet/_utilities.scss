@@ -1,0 +1,61 @@
+body {
+  font-size: 22px;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 20px 50px rgba(50, 50, 93, .15), 0 7px 18px rgba(50, 50, 93, .2), 0 3px 8px rgba(0, 0, 0, .12);
+  box-shadow: 0 20px 50px rgba(50, 50, 93, .15), 0 7px 18px rgba(50, 50, 93, .2), 0 3px 8px rgba(0, 0, 0, .12);
+}
+
+.box-shadow:hover {
+  -webkit-box-shadow: 0 20px 50px rgba(204, 135, 71, 0.15), 0 7px 18px rgba(204, 135, 71, 0.15), 0 3px 8px rgba(0, 0, 0, .12);
+  box-shadow: 0 20px 50px rgba(204, 135, 71, 0.15), 0 7px 18px rgba(204, 135, 71, 0.15), 0 3px 8px rgba(0, 0, 0, .12);
+}
+
+.tag-box {
+  display: inline-block;
+  transition: all .15s ease;
+  border: 2px solid $french-sky-blue;
+  border-radius: 5px;
+  padding: 7px 11px;
+  font-size: 1rem;
+  color: $tomato;
+  opacity: 40%;
+}
+
+.tag-box:hover {
+  border: 2px solid $french-sky-blue;
+  color: $ufo-green;
+  opacity: 90%;
+  cursor: grab;
+  transform: translateX(2px) translateY(-2px);
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 13px 18px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: all .15s ease;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.btn:hover {
+  opacity: 50%;
+  cursor: pointer;
+  transform: translateY(-1.5px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: $primary;
+}

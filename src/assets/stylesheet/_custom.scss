@@ -1,0 +1,204 @@
+#header-bar {
+  .header-link {
+    font-weight: 700;
+    color: $secondary;
+    border-bottom: white 6px solid;
+    padding-bottom: 8px;
+
+    @include mobile {
+      font-size: 1.2rem;
+    }
+  }
+
+  .header-link:hover {
+    color: $info;
+    display: inline-block;
+    border-bottom: $primary 6px solid;
+  }
+
+  #profile-picture {
+    width: 80px;
+    border-radius: 50%;
+
+    @include mobile {
+      width: 50px
+    }
+  }
+
+  #profile-picture:hover {
+    -webkit-box-shadow: 2px 3px 10px 3px rgba(54, 181, 255, 0.56);
+    box-shadow: 2px 3px 10px 3px rgba(54, 181, 255, 0.56);
+  }
+
+}
+
+#main-intro {
+  width: 98%;
+
+  #main-intro-title {
+    font-size: 4rem;
+
+    @include mobile {
+      font-size: 2.2rem;
+    }
+  }
+
+  #main-intro-line {
+    line-height: 2.5rem;
+    color: $peace;
+
+    @include mobile {
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+
+  }
+
+  #main-terminal {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main-terminal-bar {
+    height: 28px;
+    background-color: #e4e3e5;
+    border-radius: 10px 10px 0 0;
+
+    .terminal-button {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+  }
+
+  #main-terminal-window {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: $prestige-blue;
+    border-radius: 0 0 5px 5px;
+    font-size: 1.1rem;
+
+    @include mobile {
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: $french-sky-blue;
+    }
+
+    a:hover {
+      color: $tomato;
+    }
+  }
+
+}
+
+#main-projects {
+  width: 100%;
+
+  #main-projects-title {
+    display: inline-block;
+    border-bottom: $primary 6px solid;
+    padding-bottom: 8px;
+    font-size: 2rem;
+  }
+
+  .project-card {
+    margin: 25px 0;
+    border-radius: 10px;
+    width: 100%;
+
+    .project-image {
+      border-radius: 8%;
+      padding: 20px;
+      height: 100%;
+
+    }
+
+    .project-title {
+      font-size: 2rem;
+
+      @include mobile {
+        font-size: 1.7rem;
+        text-align: center;
+      }
+    }
+
+    .project-description {
+      text-indent: 3rem;
+      font-size: 1rem;
+      line-height: 1.8rem;
+
+      @include mobile {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+      }
+    }
+  }
+
+}
+
+footer {
+  margin-top: 50px;
+  padding: 80px 20px 40px 20px;
+  background-color: $bay-wharf;
+  color: $peace;
+
+
+  #footer-profile-img {
+    width: 60px;
+    border-radius: 50%;
+    opacity: 40%;
+  }
+
+  #footer-profile-img:hover {
+    cursor: none;
+    opacity: 100%;
+  }
+
+  #footer-message {
+    width: 40%;
+    color: $anti-flash-white;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+  }
+
+  #footer-contact {
+    font-size: 0.8rem;
+    width: 50%;
+
+    a {
+      display: inline-block;
+      transition: all .15s ease;
+      margin-right: 20px;
+      opacity: 50%;
+    }
+
+    a:hover {
+      opacity: 100%;
+      transform: translateX(2px) translateY(-2px);
+    }
+
+  }
+
+  #footer-note {
+    font-size: 1rem;
+  }
+
+  #footer-vendors {
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: inherit;
+    }
+
+    a:hover {
+      color: $info;
+    }
+
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+}
