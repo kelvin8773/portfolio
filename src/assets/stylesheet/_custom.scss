@@ -113,7 +113,6 @@
       border-radius: 8%;
       padding: 20px;
       height: 100%;
-
     }
 
     .project-title {
@@ -147,9 +146,13 @@ footer {
 
 
   #footer-profile-img {
-    width: 60px;
+    width: 100px;
     border-radius: 50%;
     opacity: 40%;
+
+    @include mobile {
+      width: 80px;
+    }
   }
 
   #footer-profile-img:hover {
@@ -160,8 +163,15 @@ footer {
   #footer-message {
     width: 40%;
     color: $anti-flash-white;
-    font-size: 1.1rem;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+
+    @include mobile {
+      width: 80%;
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+
   }
 
   #footer-contact {
