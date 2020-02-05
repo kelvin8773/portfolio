@@ -11,31 +11,34 @@
 <body>
 
   <header class="container">
-    <div class="my-5 d-flex justify-content-between">
-      <div class="">Profile Picture</div>
-      <div class="">Projects</div>
-      <div class="">Contact</div>
+    <div id="header-bar" class="my-3 d-flex justify-content-between align-items-center">
+      <a href="#main-projects-title" class="header-link">Projects</a>
+      <a href="#" class="profile-link">
+        <img id="profile-picture" src="./asset/image/kelvin-2019-square.png" alt="profile picture">
+      </a>
+      <a href="#footer-contact" class="header-link">Contact</a>
     </div>
   </header>
 
   <main class="container">
     <div class="d-flex flex-column align-items-center">
+
       <div id="main-intro" class="my-5">
         <h1 id="main-intro-title" class="text-left mx-2 mb-4">
           > Kelvin Liang
           <span class="text-blink background-orange px-1">&nbsp;</span>
         </h1>
-        <p id="main-intro-line" class="mb-5">
+        <p id="main-intro-line" class="mb-3 text-indent">
           I was a system admin, but I am a web developer now. It is never too late to pursuing your dream.
         </p>
-        <div id="main-terminal" class="my-5">
+        <div id="main-terminal" class="mb-3">
           <div id="main-terminal-bar" class="d-flex justify-content-start align-items-center">
             <div class="terminal-button background-red mx-2"></div>
             <div class="terminal-button background-yellow mr-2"></div>
             <div class="terminal-button background-green mr-2"></div>
           </div>
 
-          <div id="main-terminal-window" class="">
+          <div id="main-terminal-window" class="box-shadow">
 
             <div class="m-3 mb-5">
               <div class="grey mb-3">
@@ -92,14 +95,157 @@
 
       </div>
 
-      <div id="main-projects" class="text-center">
-        <div class="my-5">
-          Project list here.
+      <div id="main-projects" class="d-flex flex-column align-items-center">
+        <h2 id="main-projects-title" class="mb-5">Projects</h2>
+
+        <!-- project one  -->
+        <div class="project-card box-shadow row p-3">
+
+          <img class="project-image col-lg-6" src="./asset/image/weather-app-showcase.jpg" alt="project-image">
+
+          <div class="project-detail col-lg-6 py-4">
+            <h3 class="project-title text-left mb-4">Weather Now</h3>
+            <p class="project-description font-weight-light mb-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus earum soluta corporis, harum dolorem
+              corrupti, quo quaerat numquam adipisci consequuntur accusantium rem officia iusto quia recusandae.
+              Veritatis iusto pariatur soluta?
+            </p>
+            <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
+              <div class="tag-box mr-3 mt-2">
+                HTML
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                CSS3
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Sass
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                JavaScript
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Bootstrap 4
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                ES6
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Webpack
+              </div>
+
+            </div>
+            <div class="project-button">
+              <a href="#" class="btn btn-primary" target="_blank">
+                Live Demo ►
+              </a>
+              <a href="#" class="btn btn-white" target="_blank">
+                View Source Φ
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- project two -->
+        <div class="project-card box-shadow row p-3">
+
+          <img class="project-image col-lg-6" src="./asset/image/battle-ship-showcase.jpg" alt="project-image">
+
+          <div class="project-detail col-lg-6 py-4">
+            <h3 class="project-title text-left mb-4">Battle Ship Game</h3>
+            <p class="project-description font-weight-light mb-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus earum soluta corporis, harum dolorem
+              corrupti, quo quaerat numquam adipisci consequuntur accusantium rem officia iusto quia recusandae.
+              Veritatis iusto pariatur soluta?
+            </p>
+            <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
+              <div class="tag-box mr-3 mt-2">
+                HTML
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                CSS3
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Sass
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                JavaScript
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Bootstrap 4
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                ES6
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Webpack
+              </div>
+
+            </div>
+            <div class="project-button">
+              <a href="#" class="btn btn-primary" target="_blank">
+                Live Demo ►
+
+              </a>
+              <a href="#" class="btn btn-white" target="_blank">
+                View Source Φ
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- project three -->
+        <div class="project-card box-shadow row p-3">
+
+          <img class="project-image col-lg-6" src="./asset/image/social-network-showcase.jpg" alt="project-image">
+
+          <div class="project-detail col-lg-6 py-4">
+            <h3 class="project-title text-left mb-4">Social Network</h3>
+            <p class="project-description font-weight-light mb-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus earum soluta corporis, harum dolorem
+              corrupti, quo quaerat numquam adipisci consequuntur accusantium rem officia iusto quia recusandae.
+              Veritatis iusto pariatur soluta?
+            </p>
+            <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
+              <div class="tag-box mr-3 mt-2">
+                HTML
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                CSS3
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Sass
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                JavaScript
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Bootstrap 4
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                ES6
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Webpack
+              </div>
+
+            </div>
+            <div class="project-button">
+              <a href="#" class="btn btn-primary" target="_blank">
+                Live Demo ►
+
+              </a>
+              <a href="#" class="btn btn-white" target="_blank">
+                View Source Φ
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
+
+    </div>
   </main>
+
 
   <footer>
     <hr class="m-5">

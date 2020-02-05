@@ -1,61 +1,140 @@
-#main-intro-title {
-  font-size: 4rem;
+#header-bar {
+  .header-link {
+    font-weight: 700;
+    color: $secondary;
+    border-bottom: white 6px solid;
+    padding-bottom: 8px;
 
-  @include mobile {
-    font-size: 2.5rem;
-  }
-}
-
-#main-intro-line {
-  line-height: 2.5rem;
-  color: $peace;
-
-  @include mobile {
-    line-height: 2rem;
-    font-size: 1.2rem;
+    @include mobile {
+      font-size: 1.2rem;
+    }
   }
 
-}
+  .header-link:hover {
+    color: $info;
+    display: inline-block;
+    border-bottom: $primary 6px solid;
+  }
 
-#main-terminal {
-  width: 96%;
-}
-
-#main-terminal-bar {
-  height: 28px;
-  background-color: #e4e3e5;
-  border-radius: 10px 10px 0 0;
-
-  .terminal-button {
-    width: 14px;
-    height: 14px;
+  #profile-picture {
+    width: 80px;
     border-radius: 50%;
+
+    @include mobile {
+      width: 50px
+    }
   }
+
+  #profile-picture:hover {
+    -webkit-box-shadow: 2px 3px 10px 3px rgba(54, 181, 255, 0.56);
+    box-shadow: 2px 3px 10px 3px rgba(54, 181, 255, 0.56);
+  }
+
 }
 
-#main-terminal-window {
-  padding: 30px;
-  width: 100%;
-  height: 100%;
-  background-color: $prestige-blue;
-  border-radius: 0 0 5px 5px;
-  box-shadow: 0 20px 50px rgba(50, 50, 93, .15), 0 7px 18px rgba(50, 50, 93, .2), 0 3px 8px rgba(0, 0, 0, .12);
-  // font-family: Monaco, Consolas, Lucida Console, monospace;
-  font-size: 1.1rem;
+#main-intro {
+  width: 98%;
 
-  a {
-    color: $french-sky-blue;
+  #main-intro-title {
+    font-size: 4rem;
+
+    @include mobile {
+      font-size: 2.2rem;
+    }
   }
 
-  a:hover {
-    color: $tomato;
+  #main-intro-line {
+    line-height: 2.5rem;
+    color: $peace;
+
+    @include mobile {
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+
   }
+
+  #main-terminal {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main-terminal-bar {
+    height: 28px;
+    background-color: #e4e3e5;
+    border-radius: 10px 10px 0 0;
+
+    .terminal-button {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+  }
+
+  #main-terminal-window {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: $prestige-blue;
+    border-radius: 0 0 5px 5px;
+    font-size: 1.1rem;
+
+    @include mobile {
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: $french-sky-blue;
+    }
+
+    a:hover {
+      color: $tomato;
+    }
+  }
+
 }
-
 
 #main-projects {
-  border: 1px solid bisque;
-  width: 96%;
-  height: 50rem;
-  background-color: $anti-flash-white;
+  width: 100%;
+
+  #main-projects-title {
+    display: inline-block;
+    border-bottom: $primary 6px solid;
+    padding-bottom: 8px;
+    font-size: 2rem;
+  }
+
+  .project-card {
+    margin: 25px 0;
+    border-radius: 10px;
+    width: 100%;
+
+    .project-image {
+      border-radius: 8%;
+      padding: 20px;
+      height: 100%;
+
+    }
+
+    .project-title {
+      font-size: 2rem;
+
+      @include mobile {
+        font-size: 1.7rem;
+        text-align: center;
+      }
+    }
+
+    .project-description {
+      text-indent: 3rem;
+      font-size: 1rem;
+      line-height: 1.8rem;
+
+      @include mobile {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+      }
+    }
+  }
+
 }
