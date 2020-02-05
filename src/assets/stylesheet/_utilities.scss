@@ -14,7 +14,7 @@ body {
 
 .tag-box {
   display: inline-block;
-  transition: all .25s ease;
+  transition: all .15s ease;
   border: 2px solid $french-sky-blue;
   border-radius: 5px;
   padding: 7px 11px;
@@ -25,9 +25,10 @@ body {
 
 .tag-box:hover {
   border: 2px solid $french-sky-blue;
+  color: $ufo-green;
   opacity: 90%;
   cursor: grab;
-  transform: translateX(1.5px);
+  transform: translateX(2px) translateY(-2px);
 }
 
 .btn {

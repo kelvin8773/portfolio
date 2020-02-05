@@ -138,3 +138,67 @@
   }
 
 }
+
+footer {
+  margin-top: 50px;
+  padding: 80px 20px 40px 20px;
+  background-color: $bay-wharf;
+  color: $peace;
+
+
+  #footer-profile-img {
+    width: 60px;
+    border-radius: 50%;
+    opacity: 40%;
+  }
+
+  #footer-profile-img:hover {
+    cursor: none;
+    opacity: 100%;
+  }
+
+  #footer-message {
+    width: 40%;
+    color: $anti-flash-white;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+  }
+
+  #footer-contact {
+    font-size: 0.8rem;
+    width: 50%;
+
+    a {
+      display: inline-block;
+      transition: all .15s ease;
+      margin-right: 20px;
+      opacity: 50%;
+    }
+
+    a:hover {
+      opacity: 100%;
+      transform: translateX(2px) translateY(-2px);
+    }
+
+  }
+
+  #footer-note {
+    font-size: 1rem;
+  }
+
+  #footer-vendors {
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: inherit;
+    }
+
+    a:hover {
+      color: $info;
+    }
+
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+}
