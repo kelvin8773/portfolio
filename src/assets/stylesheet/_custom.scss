@@ -104,6 +104,7 @@
     font-size: 2rem;
   }
 
+
   .project-card {
     margin: 25px 0;
     border-radius: 10px;
@@ -125,10 +126,40 @@
       }
     }
 
+    .project-subtitle {
+      font-size: 1.2rem;
+      text-decoration: underline;
+      line-height: 1.8rem;
+      color: $peace;
+      font-weight: 600;
+
+      a {
+        color: inherit;
+      }
+
+      a:hover {
+        color: $ufo-green;
+      }
+
+      @include mobile {
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+
     .project-description {
       text-indent: 3rem;
       font-size: 1rem;
-      line-height: 1.8rem;
+      line-height: 1.6rem;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:hover {
+        color: $ufo-green;
+      }
 
       @include mobile {
         font-size: 0.8rem;

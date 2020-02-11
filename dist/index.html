@@ -35,7 +35,7 @@
     <div id="header-bar" class="my-3 d-flex justify-content-between align-items-center">
       <a href="#main-projects-title" class="header-link">Projects</a>
       <a href="/" class="profile-link">
-        <img id="profile-picture" src="./asset/image/kelvin-2019-square.png" alt="profile picture">
+        <img id="profile-picture" src="./asset/image/kelvin-2019.jpg" alt="profile picture">
       </a>
       <a href="#footer-contact" class="header-link">Contact</a>
     </div>
@@ -122,17 +122,66 @@
       <div id="main-projects" class="d-flex flex-column align-items-center">
         <h2 id="main-projects-title" class="mb-5">Projects</h2>
 
+        <!-- New Project  -->
+        <div class="project-card box-shadow row p-3">
+          <img class="project-image col-lg-6" src="./asset/image/calculator-showcase.jpg" alt="project-image">
+
+          <div class="project-detail col-lg-6 py-4">
+            <h3 class="project-title text-left mb-4">My Calculator</h3>
+            <div class="project-subtitle mb-2">
+              A Calculator App that fit into your computer and your phone.
+            </div>
+            <div class="project-description font-weight-light mb-3">
+              <p> This is my First <strong><a href="https://reactjs.org/">ReactJS</a></strong> project, I practiced some
+                basic
+                <strong><a href="https://reactjs.org/docs/introducing-jsx.html">ReactJS concepts</a></strong> -
+                "Components", "State and Props", "Event handling", "JSX" in this project. </p>
+
+            </div>
+            <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
+              <div class="tag-box mr-3 mt-2">
+                HTML
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                CSS3
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                Sass
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                JavaScript
+              </div>
+              <div class="tag-box mr-3 mt-2">
+                ReactJS
+              </div>
+
+            </div>
+            <div class="project-button">
+              <a href="https://calculator.kelvinliang.cn/" class="btn btn-primary" target="_blank">
+                Live Demo ►
+              </a>
+              <a href="https://github.com/kelvin8773/my-calculator" class="btn btn-white" target="_blank">
+                View Source Φ
+              </a>
+            </div>
+          </div>
+        </div>
+
+
         <!-- project one  -->
         <div class="project-card box-shadow row p-3">
           <img class="project-image col-lg-6" src="./asset/image/weather-app-showcase.jpg" alt="project-image">
 
           <div class="project-detail col-lg-6 py-4">
             <h3 class="project-title text-left mb-4">Weather Now</h3>
-            <p class="project-description font-weight-light mb-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus earum soluta corporis, harum dolorem
-              corrupti, quo quaerat numquam adipisci consequuntur accusantium rem officia iusto quia recusandae.
-              Veritatis iusto pariatur soluta?
-            </p>
+            <div class="project-subtitle mb-2">
+              A Weather App that check all cities instantly in detail.
+            </div>
+            <div class="project-description font-weight-light mb-3">
+              <p>
+                This is a project that help me build up the fundamental in JavaScript Programming, such as ES6,
+                OOP(Object Oriented Programming), MVC(Model View Controller), Factory Functions etc. </p>
+            </div>
             <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
               <div class="tag-box mr-3 mt-2">
                 HTML
@@ -174,11 +223,17 @@
 
           <div class="project-detail col-lg-6 py-4">
             <h3 class="project-title text-left mb-4">Battle Ship Game</h3>
-            <p class="project-description font-weight-light mb-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus earum soluta corporis, harum dolorem
-              corrupti, quo quaerat numquam adipisci consequuntur accusantium rem officia iusto quia recusandae.
-              Veritatis iusto pariatur soluta?
-            </p>
+            <div class="project-subtitle mb-2">
+              A <a href="https://en.wikipedia.org/wiki/Battleship_(game)">World War I strategy Game</a> Now on the web
+              and your phone.
+            </div>
+
+            <div class="project-description font-weight-light mb-3">
+              <p>
+                A challenge but fun project that I build with TDD (Testing-driven Development) and plain JavaScript.
+              </p>
+            </div>
+
             <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
               <div class="tag-box mr-3 mt-2">
                 HTML
@@ -220,11 +275,16 @@
 
           <div class="project-detail col-lg-6 py-4">
             <h3 class="project-title text-left mb-4">Social Network</h3>
-            <p class="project-description font-weight-light mb-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus earum soluta corporis, harum dolorem
-              corrupti, quo quaerat numquam adipisci consequuntur accusantium rem officia iusto quia recusandae.
-              Veritatis iusto pariatur soluta?
-            </p>
+            <div class="project-subtitle mb-2">
+              Sketch the "Social Network" ideas with Ruby On Rails.
+            </div>
+            <div class="project-description font-weight-light mb-3">
+              <p>
+                This project is built with FrontEnd and Backend all together, with Ruby On Rails' helpful packages
+                platform, I was able to build up a light version of "Facebook" in less than a
+                month.
+              </p>
+            </div>
             <div class="project-tech mb-4 d-flex flex-wrap justify-content-start">
               <div class="tag-box mr-3 mt-2">
                 HTML
@@ -244,7 +304,9 @@
               <div class="tag-box mr-3 mt-2">
                 Ruby On Rails
               </div>
-
+              <div class="tag-box mr-3 mt-2">
+                Postgres
+              </div>
 
             </div>
             <div class="project-button">
@@ -258,6 +320,7 @@
             </div>
           </div>
         </div>
+
       </div>
 
     </div>
