@@ -15,18 +15,17 @@ body {
 .tag-box {
   display: inline-block;
   transition: all .15s ease;
-  border: 2px solid $french-sky-blue;
-  border-radius: 5px;
-  padding: 7px 11px;
-  font-size: 1rem;
-  color: $tomato;
-  opacity: 40%;
+  border: 1.5px solid $twinkle-blue;
+  border-radius: 3px;
+  padding: 7px 10px;
+  font-size: 0.7rem;
+  color: $coral;
+  font-weight: 600;
 }
 
 .tag-box:hover {
-  border: 2px solid $french-sky-blue;
+  border-color: $french-sky-blue;
   color: $ufo-green;
-  opacity: 90%;
   cursor: grab;
   transform: translateX(2px) translateY(-2px);
 }
