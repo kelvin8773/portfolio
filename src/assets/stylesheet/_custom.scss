@@ -136,19 +136,11 @@
     }
 
     .project-subtitle {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       text-decoration: underline;
-      line-height: 1.8rem;
+      line-height: 2rem;
       color: $peace;
-      font-weight: 600;
-
-      a {
-        color: inherit;
-      }
-
-      a:hover {
-        color: $ufo-green;
-      }
+      font-weight: 400;
 
       @include mobile {
         font-size: 0.9rem;
@@ -158,17 +150,8 @@
 
     .project-description {
       text-indent: 3rem;
-      font-size: 1rem;
-      line-height: 1.6rem;
-
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-
-      a:hover {
-        color: $ufo-green;
-      }
+      font-size: 0.9rem;
+      line-height: 1.9rem;
 
       @include mobile {
         font-size: 0.8rem;
